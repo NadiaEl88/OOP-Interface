@@ -1,0 +1,13 @@
+package NuetzlicheFunktion;
+
+public class Testprogramm {
+
+    public static void main(String[] args){
+
+        Vergleichbar[] elemente = new Vergleichbar[] {};
+
+        Vergleichbar kleinste = NuetzlicheFunktionen.kleinstesElement(elemente);
+
+        System.out.println(kleinste)
+    }
+}
